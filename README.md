@@ -43,3 +43,18 @@ docker run --rm -p 5000:8080 jiacheng111/nodejs-demo-app:1.0
 ## Validate
 
 - go to http://localhost:5000
+
+
+# Version with bullseye (no vuls)
+
+## Build
+
+```
+docker build -t jiacheng111/nodejs-demo-app:1.1 .
+```
+
+## Run
+
+```
+docker run --rm -p 5000:8080 jiacheng111/nodejs-demo-app:1.1
+```

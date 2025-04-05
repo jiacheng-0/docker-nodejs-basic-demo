@@ -11,12 +11,14 @@
             "id": "cbcf677e806031d6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250406003257.png"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250406003257"
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
         ]
@@ -168,11 +170,11 @@
   },
   "active": "5160691e9420524a",
   "lastOpenFiles": [
+    "Pasted image 20250406003257.png",
     "README.md",
     "Pasted image 20250406003249.png",
     "Pasted image 20250406002521.png",
     "Pasted image 20250406002235.png",
-    "Pasted image 20250406003257.png",
     "attachments"
   ]
 }
