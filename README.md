@@ -30,12 +30,16 @@ https://fireship.io/lessons/docker-basics-tutorial-nodejs/
 
 ```
 docker build -t jiacheng111/nodejs-demo-app:1.0 .
+
+nerdctl build -t jiacheng111/nodejs-demo-app:1.1 .
 ```
 
 ## Run
 
 ```
 docker run --rm -p 5000:8080 jiacheng111/nodejs-demo-app:1.0
+
+nerdctl run --rm -p 5000:8080 jiacheng111/nodejs-demo-app:1.1
 ```
 
 - **`--rm`**: This is the key flag. It tells Docker to automatically remove the container's file system when the container exits.
@@ -43,7 +47,6 @@ docker run --rm -p 5000:8080 jiacheng111/nodejs-demo-app:1.0
 ## Validate
 
 - go to http://localhost:5000
-
 
 # Version with bullseye (no vuls)
 
